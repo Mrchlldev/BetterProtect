@@ -1,0 +1,15 @@
+name: BetterProtect
+api: 5.0.0
+main: Mrchlldev\BetterProtected\Loader
+version: 1.0.0
+author: Mrchlldev
+
+commands:
+  betterprotect:
+    description: "Manage BetterProtected"
+    permission: betterprotected.command
+    aliases: ["bp", "bprotect"]
+
+permissions:
+  betterprotected.command:
+    default: op
